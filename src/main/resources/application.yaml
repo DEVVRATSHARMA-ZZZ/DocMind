@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    default: dev
+  application:
+    name: docmind
+
+server:
+  port: ${PORT:8081}
